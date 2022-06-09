@@ -48,7 +48,7 @@ body {
   height: 310px;
   position: absolute;
   top: 50%;
-  transform: translate(0, -50%);
+  transform: translate(0, -100%);
   width: 100%;
 } 
 
@@ -56,54 +56,63 @@ body {
   display: block;
   height: 250px;
   border-radius: 100%;
-  margin: auto;
-  margin-top: 30px;
-  
+  margin: 30px 825px 0 0;
+  float: right;
 }
 .main p {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .text1 { 
-  font-size: 35px;
+  position: absolute;
+  font-size: 40px;
   float: left;
 
-  margin-left: 35rem;
+  transform: translate(37rem, 7rem);
+}
+
+.text2 {
+  position: absolute;
+
+  transform: translate(40rem, 9.4rem);
 }
 
 .soundcloud {
   position: relative;
-  transform: translate(20%, 127%);
+  transform: translate(5%, 127%);
   padding-bottom: 20px;
 }
 
 .maptext {
-  color: white;
-  position: relative;
-  transform: translate(78%, 250%);
+  transform: translate(-0.8rem, 0);
 }
 
 .location {
-  position: relative;
+  position: absolute;
   float: right;
-  transform: translate(-25%, 25%);
+  transform: translate(56rem, 39.7rem);
 }
 
 .musictext {
-  color: white;
-  position: relative;
-  transform: translate(14%, 38rem);
+  transform: translate(6rem, 0);
 }
 
-.regtext {
+.fillthisup {
+  transform: translate(5rem, 0);
+}
+
+.desctext {
+  display: flex;
+  justify-content: space-between;
+  transform: translate(0, 5rem);
+  margin: 0 100px;
+
   color: white;
-  position: relative;
-  transform: translate(42%, 2.5rem);
 }
 
 form {
   color: white;
-  position: relative;
+  position: absolute;
   transform: translate(50rem, 13rem);
   width: 200px;
   font-size: 25px;
@@ -134,4 +143,29 @@ form {
 .submitbutton:hover {
   cursor: pointer;
   background-color: rgb(88, 88, 88);
+}
+
+svg {
+  height: 15px;
+  color: white;
+  position: absolute;
+  transform: translate(38.9rem, -18rem);
+}
+
+audio {
+  transform: translate(0, 50rem);
+  margin: 0 10.5rem 0 10rem;
+}
+
+video {
+  width: 33%;
+  transform: translate(0, 50rem);
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.enjoy {
+  color: white;
+  width: 450px;
+  transform: translate(46rem, 45rem);
 }
